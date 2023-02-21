@@ -1,5 +1,4 @@
-import { IsString } from 'class-validator';
-import { IsNotEmpty, Length } from 'class-validator/types/decorator/decorators';
+import { IsString, IsNotEmpty, Length } from 'class-validator';
 import { notesConstant } from '../constants';
 
 export class CreateNoteDto {

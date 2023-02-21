@@ -13,7 +13,7 @@ export class NotesService {
     const where: Prisma.NoteWhereInput = {};
 
     if (query) {
-      where.title = {
+      where.content = {
         contains: query,
       };
     }
